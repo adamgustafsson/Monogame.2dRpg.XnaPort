@@ -137,7 +137,7 @@ namespace Model
         //Laddar all världar
         public void LoadMaps(ContentManager a_content)
         {
-            m_mapList.Add(TMXContentProcessor.LoadTMX("Content/world.tmx", a_content));
+            m_mapList.Add(TMXContentProcessor.LoadTMX("world.tmx", "TileTextures", a_content));
         }
 
         //Hämtar Index's till samtliga objektlager från TMX filen
